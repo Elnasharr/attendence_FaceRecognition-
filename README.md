@@ -6,13 +6,14 @@ Used libraries : dlib, face-recognition.
 First, the code stage:
   A punch of images are added ton the project file and the code takes the distances and encodings of this face details and save the 128 encoding plus details in a file 
 Second, On run stage:
-  the webcam opens and take captures these captures are sent to take their encodings and compare them with what already in the system inside the system, if the encodings are matched it         display an image "marked" and prints the face ID, otherwise display "active".      
-
-![Screenshot 2024-01-12 232704](https://github.com/Zay-nabb/Face-recognition-project/assets/156392721/6c5adad4-9975-4f92-a754-2014bb43fa53)
+  the webcam opens and take captures these captures are sent to take their encodings and compare them with what already in the system inside the system, if the encodings are matched it         display an image "marked" and prints the face ID, otherwise display "active".
 
   # Libraries used
-
-  ![Screenshot 2024-01-12 234417](https://github.com/Zay-nabb/Face-recognition-project/assets/156392721/5ee5f9d5-3c08-48f6-9086-77721d46ee46)
+- OS
+- pickle
+- numpy
+- cv2
+- face_recognition
   
   
 # Files 
@@ -23,9 +24,6 @@ data file : that saves all the system images' encodings in it.
 encode-generator : the file that has the code of that generates the encodings of the images in the system.
 main file : where we run the program and opens the webcam and calls the encode-generator function.     
 
-
-![Screenshot 2024-01-12 233753](https://github.com/Zay-nabb/Face-recognition-project/assets/156392721/5827e0e5-bafc-4e82-aac3-b9f88bb4a23e
-)
 
 # sample from Encode Generator 
 
